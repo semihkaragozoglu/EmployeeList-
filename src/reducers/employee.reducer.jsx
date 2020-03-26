@@ -29,7 +29,7 @@ export default function employeeReducer(state = initState, action) {
         selectedEmployeeId: action.id
       };
 
-    case employeeConstants.DELETE_EMPLOYEE_SUCCESS: // TODO DELETE ON HERE
+    case employeeConstants.DELETE_EMPLOYEE_SUCCESS:
       return {
         ...state,
         employees: state.employees.filter(item => item.id !== action.id),
@@ -48,7 +48,7 @@ export default function employeeReducer(state = initState, action) {
         formLoading: true
       };
 
-    case employeeConstants.EDIT_EMPLOYEE_SUCCESS: // TODO EDIT ON HERE
+    case employeeConstants.EDIT_EMPLOYEE_SUCCESS:
       return {
         ...state,
         employees: state.employees.map((employee, i) =>
@@ -72,7 +72,7 @@ export default function employeeReducer(state = initState, action) {
         formLoading: true
       };
 
-    case employeeConstants.ADD_EMPLOYEE_SUCCESS: // TODO ADD ON HERE
+    case employeeConstants.ADD_EMPLOYEE_SUCCESS:
       return {
         ...state,
         employees: [...state.employees, action.employee],

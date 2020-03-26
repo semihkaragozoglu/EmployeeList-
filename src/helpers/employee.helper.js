@@ -37,7 +37,9 @@ function edit(dispatch, id) {
   employeeService.updateById(id).then(
     employee => {
       dispatch(employeeActions.editEmployeeSuccess(employee));
-      history.push('/');
+      setTimeout(() => {
+        history.push('/');  
+      }, 2000); 
     },
     error => {
       dispatch(employeeActions.editEmployeeFailure(error));
@@ -49,7 +51,9 @@ function add(dispatch, employee) {
   employeeService.insertEmployee(employee).then(
     employee => {
       dispatch(employeeActions.addEmployeeSuccess(employee));
-      history.push('/');
+      setTimeout(() => {
+        history.push('/');  
+      }, 2000); 
     },
     error => {
       dispatch(employeeActions.addEmployeeFailure(error));
