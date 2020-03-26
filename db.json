@@ -1,0 +1,92 @@
+{
+  "departments": [
+    {
+      "id": 1,
+      "title": "İnsan Kaynakları"
+    },
+    {
+      "id": 2,
+      "title": "Pazarlama"
+    },
+    {
+      "id": 3,
+      "title": "Teknik Mimari"
+    },
+    {
+      "id": 4,
+      "title": "Krediler"
+    }
+  ],
+  "employees": [
+    {
+      "id": 36,
+      "maritalStatus": true,
+      "fullname": "1234",
+      "email": "semihkaragozoglu@mail.com",
+      "departmentId": 1
+    },
+    {
+      "id": 37,
+      "maritalStatus": true,
+      "fullname": "123",
+      "email": "123@semih.com",
+      "departmentId": 3
+    },
+    {
+      "id": 38,
+      "maritalStatus": true,
+      "fullname": "1234",
+      "email": "123@semih.com",
+      "departmentId": 3
+    },
+    {
+      "id": 39,
+      "maritalStatus": "",
+      "fullname": "aaaa",
+      "email": "semihkaragozoglu@gmail.com",
+      "departmentId": 1
+    },
+    {
+      "id": 40,
+      "maritalStatus": true,
+      "fullname": "1234",
+      "email": "semihkaragozoglu@mail.com",
+      "departmentId": 2
+    },
+    {
+      "id": 41,
+      "maritalStatus": true,
+      "fullname": "123",
+      "email": "semihkaragozoglu@mail.com",
+      "departmentId": 3
+    },
+    {
+      "id": 42,
+      "maritalStatus": true,
+      "fullname": "1234",
+      "email": "123@semih.com",
+      "departmentId": 2
+    },
+    {
+      "id": 43,
+      "maritalStatus": true,
+      "fullname": "2312",
+      "email": "123@semih.com",
+      "departmentId": 3
+    },
+    {
+      "id": 44,
+      "maritalStatus": true,
+      "fullname": "2312",
+      "email": "semihkaragozoglu@mail.com",
+      "departmentId": 2
+    },
+    {
+      "id": 45,
+      "maritalStatus": true,
+      "fullname": "1234",
+      "email": "123@semih.com",
+      "departmentId": 2
+    }
+  ]
+}
